@@ -76,7 +76,19 @@ const GlobalStyle = createGlobalStyle`
   }
 
 
-  
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: var(--color-bg-2);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: var(--color-main);
+    border: transparent;
+    border-radius: 8px;
+  }
 
 `;
 

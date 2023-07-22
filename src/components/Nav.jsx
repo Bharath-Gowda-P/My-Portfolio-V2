@@ -8,7 +8,7 @@ export const Nav = ({ theme, setTheme }) => {
     setTheme(theme === "light" ? "dark" : "light");
   };
   return (
-    <div className="z-1 fixed left-0 right-0">
+    <div className="z-10 fixed left-0 right-0">
       <nav className="max-w-[1080px] m-auto pr-[2rem] pl-[2rem] pt-[1rem] pb-[1rem] flex justify-between">
         <div className="z-2 flex items-center" href="#hero">
           <Link to="#hero">

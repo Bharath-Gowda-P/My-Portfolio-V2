@@ -21,3 +21,24 @@ h2{
     font-size: 1.6rem;
     color: var(--color-header);    
   } 
+
+@media only screen and (max-width: 768px){
+  .name{
+    font-size: 3.4rem;
+  }
+  .name-des{
+    font-size: 2.3rem;
+  }
+  .desc{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .name{
+    font-size: 2.6rem;
+  }
+  .name-des{
+    font-size: 1.6rem;
+  }
+}

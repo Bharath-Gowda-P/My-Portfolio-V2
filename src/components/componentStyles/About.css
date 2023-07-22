@@ -1,0 +1,11 @@
+@media only screen and (max-width: 640px){
+    .about-main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .about-main2{
+        max-width: 100%;
+    }
+}

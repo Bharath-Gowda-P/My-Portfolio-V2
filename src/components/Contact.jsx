@@ -6,10 +6,10 @@ import React from 'react'
 export const Contact = () => {
   return (
     <div id="contact" className=''>
-        <div className='min-h-[90vh] flex flex-col items-center justify-center w-[100%] m-auto'>
+        <div className='min-h-[90vh] flex flex-col items-center justify-center w-[90%] m-auto'>
             <div className='mb-[80px] flex flex-col items-center justify-center w-[100%]'>
                 <h2 className='text-[--color-header]'><span>03. </span>CONTACT</h2>
-                <p className='mt-[20px] max-w-[600px] text-center '>If you have any questions, ideas, collaboration opportunities, or just want to connect, feel free to get in touch with me.</p>
+                <p className='mt-[20px] max-w-[600px] text-center desc'>If you have any questions, ideas, collaboration opportunities, or just want to connect, feel free to get in touch with me.</p>
             </div>
             <div className='flex flex-row flex-wrap items-center justify-center w-[100%] max-w-[1080px]'>
                 <div className='flex justify-center items-center gap-[1rem] mb-[2rem] w-[360px]'>
