@@ -9,3 +9,7 @@
         justify-content:left ;
     }
 }
+
+p:hover{
+    font-style: bold;
+}

@@ -15,23 +15,23 @@ export const Contact = () => {
             <div className='flex flex-row flex-wrap items-center justify-center w-[100%] max-w-[1080px] card'>
                 <div className='flex justify-center items-center gap-[1rem] mb-[2rem] w-[360px] card-sub'>
                     <div className='bg-[--color-second] h-[3rem] w-[3rem] flex items-center justify-center rounded-full'><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></div>
-                    <p><a href="mailto:bharathbg882@gmail.com">bharathbg882@gmail.com</a></p>
+                    <p className='hover:font-bold'><a href="mailto:bharathbg882@gmail.com">bharathbg882@gmail.com</a></p>
                 </div>
                 <div className='flex items-center justify-center gap-[1rem] mb-[2rem] w-[360px] card-sub'>
                     <div className='bg-[--color-second] h-[3rem] w-[3rem] flex items-center justify-center rounded-full'><FontAwesomeIcon icon={faPhone}></FontAwesomeIcon></div>
-                    <p><a href="tel:+919538314487">+91 95383 14487</a></p>
+                    <p className='hover:font-bold'><a href="tel:+919538314487">+91 95383 14487</a></p>
                 </div>
                 <div className='flex items-center justify-center gap-[1rem] mb-[2rem] w-[360px] card-sub'>
                     <div className='bg-[--color-second] h-[3rem] w-[3rem] flex items-center justify-center rounded-full'><FaLinkedin></FaLinkedin></div>
-                    <p><a href="https://www.linkedin.com/in/bharath-gowda-p/" target='_blank' rel='noreferrer'>Bharath-Gowda-P</a></p>
+                    <p className='hover:font-bold'><a href="https://www.linkedin.com/in/bharath-gowda-p/" target='_blank' rel='noreferrer'>Bharath-Gowda-P</a></p>
                 </div>
                 <div className='flex items-center justify-center gap-[1rem] mb-[2rem] w-[360px] card-sub'>
                     <div className='bg-[--color-second] h-[3rem] w-[3rem] flex items-center justify-center rounded-full'><FaGithub></FaGithub></div>
-                    <p><a href="https://github.com/Bharath-Gowda-P" target='_blank' rel='noreferrer'>Bharath-Gowda-P</a></p>
+                    <p className='hover:font-bold'><a href="https://github.com/Bharath-Gowda-P" target='_blank' rel='noreferrer'>Bharath-Gowda-P</a></p>
                 </div>
                 <div className='flex items-center justify-center gap-[1rem] mb-[2rem] w-[360px] card-sub'>
                     <div className='bg-[--color-second] h-[3rem] w-[3rem] flex items-center justify-center rounded-full'><FaInstagram></FaInstagram></div>
-                    <p><a href="https://www.instagram.com/bharaaathgowda/" target='_blank' rel='noreferrer'>bharaaathgowda</a></p>
+                    <p className='hover:font-bold'><a href="https://www.instagram.com/bharaaathgowda/" target='_blank' rel='noreferrer'>bharaaathgowda</a></p>
                 </div>
             </div>
         </div>
