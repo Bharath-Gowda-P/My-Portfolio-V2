@@ -15,7 +15,7 @@ export const About = () => {
                   My expertise in solving <span>Data Structures and Algorithms problems using C++</span> empowers me to develop efficient and optimized solutions. I thrive on challenges and enjoy finding elegant solutions to complex coding problems.
                   </p>
                 </div>
-                <div className=''>
+                <div className='img'>
                   <img src={profile} width={500} quality={95} alt="" className='max-w-[300px]'/>
                 </div>
             </div>

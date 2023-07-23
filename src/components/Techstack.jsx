@@ -4,7 +4,7 @@ import "./componentStyles/Technologies.css"
 
 export const Techstack = ({icon, title, technologies}) => {
   return (
-    <div className='flex items-center flex-col bg-[--color-bg] pt-[2rem] stack-main'>
+    <div className='flex items-center flex-col bg-[--color-bg] pt-[2rem] stack-main pb-[2rem]'>
         <div className='bg-[--color-second] text-[--color-main] p-[1rem] icon h-[2rem] w-[2rem] flex justify-center items-center'>
             <FontAwesomeIcon icon={icon}></FontAwesomeIcon>
         </div>

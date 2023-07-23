@@ -6,7 +6,7 @@ import Wave from '../assets/img/Wave'
 export const Hero = () => {
   return (
 
-    <div className='flex items-center justify-center min-h-[100vh] max-w-[1080px] w-[90%] m-auto' id='hero'>
+    <div className='flex items-center justify-center min-h-[100vh] max-w-[1080px] w-[87%] m-auto' id='hero'>
         <div className='flex flex-col justify-center  gap-[1rem]'>
             <div className='flex flex-col'>
                 <div className='overflow-hidden'>

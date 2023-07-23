@@ -6,7 +6,7 @@ export const Footer = () => {
     <div className='footer'>
         <div className='flex flex-col p-[2rem] gap-[0.5rem] text-[0.9rem] items-center'>
             <p className='desc'>Built with passion and React.js by Bharath Gowda.</p>
-            <p className='text-[10px] desc'>Codeemonk <span>&copy;</span> 2023 - Crafting Tomorrow's Tech, Today.</p>
+            <p className='text-[10px] desc-footer'>Codeemonk <span>&copy;</span> 2023 - Crafting Tomorrow's Tech, Today.</p>
         </div>
     </div>
   )
